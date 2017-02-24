@@ -1,0 +1,34 @@
+.app {
+  height:100vh;
+}
+.box {
+    background: red;
+    border: 1px solid yellow;
+    font-size: 3em;
+    text-align: center;
+    line-height: 4em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+  .box.col2 {
+    height : 50%;
+  }
+  .box.col3 {
+    height : 33.3%;
+  }
+  .box.col4 {
+    height : 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .box.col3 {
+    height : 33.3%;
+  }
+  .box.col4 {
+    height: 50%;
+  }
+ }
