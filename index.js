@@ -43,4 +43,4 @@ const render = (cols) => {
       app.innerHTML = html4Cols;
     }
 }
-render(4);
+render(2);

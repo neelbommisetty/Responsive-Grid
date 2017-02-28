@@ -25,6 +25,9 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  .box.col2{
+    height: 50%;
+  }
   .box.col3 {
     height : 33.3%;
   }
